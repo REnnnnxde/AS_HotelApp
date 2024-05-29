@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:background="#999"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga Mulai dari"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 250.000"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Malam Bos kuu !"
+                android:textSize="13sp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hotel Samudra Indah 😍"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Hotel Samudra Indah adalah sebuah penginapan mewah yang terletak di tepi pantai, menawarkan pemandangan laut yang memukau dan berbagai fasilitas kelas atas yang dirancang untuk memberikan kenyamanan maksimal kepada para tamu. Arsitektur hotel ini menggabungkan elemen-elemen modern dan tradisional, menciptakan suasana elegan namun tetap hangat. Setiap kamar dirancang dengan detail yang cermat, dilengkapi dengan perabotan berkualitas tinggi, AC, televisi layar datar, minibar, serta akses Wi-Fi gratis. Beberapa kamar bahkan memiliki balkon pribadi yang menghadap langsung ke laut, memungkinkan tamu untuk menikmati matahari terbit dan terbenam dari kenyamanan kamar mereka. Selain itu, Hotel Samudra Indah menawarkan berbagai fasilitas rekreasi untuk memenuhi kebutuhan setiap tamu. Kolam renang infinity yang menghadap langsung ke laut adalah salah satu daya tarik utama, memberikan pengalaman berenang yang tak tertandingi. Bagi mereka yang mencari relaksasi, spa hotel menawarkan berbagai perawatan tubuh dan pijat yang menggunakan bahan-bahan alami, membantu tamu untuk merasa segar dan bugar. Tidak hanya itu, hotel ini juga memiliki pusat kebugaran yang dilengkapi dengan peralatan modern bagi mereka yang ingin tetap aktif selama menginap. Untuk para pencinta kuliner, restoran di Hotel Samudra Indah menyajikan berbagai hidangan lokal dan internasional yang disiapkan oleh koki berpengalaman. Bahan-bahan segar dan berkualitas digunakan untuk menciptakan menu yang menggugah selera, mulai dari sarapan prasmanan yang melimpah hingga makan malam romantis di tepi pantai. Tidak ketinggalan, lounge dan bar hotel menyediakan berbagai pilihan minuman, mulai dari kopi spesial hingga koktail eksotis. Hotel Samudra Indah juga merupakan pilihan ideal untuk berbagai acara, mulai dari pernikahan, konferensi, hingga pesta pribadi. Dengan ruang pertemuan yang dilengkapi teknologi canggih dan tim profesional yang siap membantu merencanakan setiap detail acara, hotel ini memastikan setiap acara berjalan lancar dan sukses. Berlokasi strategis dekat dengan berbagai atraksi wisata, seperti taman laut dan pusat perbelanjaan, Hotel Samudra Indah menawarkan pengalaman menginap yang lengkap dan tak terlupakan bagi setiap tamu yang datang."/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c00"
+        android:textColor="#fff"
+        android:text="BOOK NOW !!!"/>
+</LinearLayout>
